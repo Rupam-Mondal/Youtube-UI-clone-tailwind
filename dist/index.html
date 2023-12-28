@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="h-screen w-screen flex flex-col">
+        <!-- //nav bar -->
+        <nav class="h-20 w-screen px-5 py-3 flex justify-between">
+
+            <!-- //icon and menu button -->
+            <div class="flex gap-3 items-center">
+                <div
+                    class="h-10 w-10 bg-white hidden md:flex md:flex-col md:items-center ml-4 md:justify-center rounded-full hover:bg-slate-200 cursor-pointer">
+                    <div class="w-6 h-0.5 bg-black mb-1"></div>
+                    <div class="w-6 h-0.5 bg-black mb-1"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                
+                <div class="w-24 h-10 flex justify-center items-center cursor-pointer">
+                    <img src="youtube-icon.jpg" alt="" class="h-8">
+                </div>
+            </div>
+
+            <!-- search bar -->
+            <div class="hidden md: md:flex md:items-center md:w-6/12 md:mr-[13%]">
+                <div class="h-11 w-full flex relative justify-end items-center">
+                    <input type="text"
+                        class="h-full w-10/12 px-3 py-1 rounded-l-3xl border-2 border-slate-300 focus:outline-blue-400 placeholder:font-medium"
+                        placeholder="Search">
+                    <div
+                        class="absolute h-11 w-14 bg-slate-100 border-2 cursor-pointer left-[98%] border-slate-300 flex justify-center items-center rounded-r-full">
+                        <i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div
+                        class="absolute h-11 w-11 bg-slate-100 cursor-pointer hover:bg-slate-200 left-[110%] border-slate-300 flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-microphone fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- profile section -->
+            <div class="flex gap-2 md:gap-3 items-center">
+                <div class="h-10 w-10 md:hidden flex justify-center items-center cursor-pointer rounded-full hover:bg-slate-200">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </div>
+                <div class="h-10 w-10 hidden md:flex md:justify-center md:items-center cursor-pointer rounded-full hover:bg-slate-200">
+                    <i class="fa-solid fa-video fa-lg"></i>
+                </div>
+                
+                <div class="h-10 w-10 flex justify-center items-center cursor-pointer rounded-full hover:bg-slate-200">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                </div>
+                
+                <div class="h-10 w-10 flex justify-center items-center cursor-pointer mr-2 rounded-full hover:bg-slate-200">
+                    <img src="https://yt3.ggpht.com/yti/ADpuP3Pg6Z9nGafznMT1O8BcIpVCgEaM7P_EvevdMxxqkA=s88-c-k-c0x00ffffff-no-rj" alt=""
+                        class="h-9 w-9 rounded-full">
+                </div>
+            </div>
+
+        </nav>
+
+
+        <!-- main body -->
+        <main  class="w-screen flex">
+
+            <!-- left bar -->
+            <div></div>
+
+            <!-- content section -->
+            <div></div>
+        </main>
+    </div>
+</body>
+</html>
