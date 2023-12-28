@@ -1,0 +1,21 @@
+#left-bar::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}
+
+#left-bar:hover::-webkit-scrollbar {
+    display: block;
+}
+
+#left-bar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+}
+#content-box:hover{
+    #thumb-image{
+        display: none;
+    }
+    #video{
+        display: block;
+    }
+}
